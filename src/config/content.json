@@ -1,6 +1,6 @@
 {
   "nav": {
-    "name": "Your Name",
+    "name": "Henry",
     "menu": [
       {
         "text": "Home",
@@ -30,7 +30,7 @@
   },
   "hero": {
     "greeting": "Hi",
-    "name": "Your Name",
+    "name": "Henry",
     "title": "Full Stack Developer",
     "description": "I build exceptional and accessible digital experiences for the web.",
     "image": "/images/avatar.png",
@@ -228,7 +228,7 @@
       {
         "name": "LinkedIn",
         "icon": "linkedin",
-        "link": "https://www.linkedin.com/company/tencentedgeone"
+        "link": "https://www.linkedin.com/in/henry-neoh-wei-jian-7b44362a0/?trk=opento_sprofile_details"
       },
       {
         "name": "Medium",
