@@ -33,6 +33,7 @@ export default function Home() {
       alert('Message sent successfully!');
       form.reset();
     } catch (error) {
+      console.error('EmailJS error:', error);
       alert('Failed to send message. Please try again.');
     }
   };
@@ -291,4 +292,4 @@ export default function Home() {
       </section>
     </>
   );
-} 
+}
