@@ -38,7 +38,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "Write a detailed description about yourself, your background, and your interests. This section helps visitors get to know you better.",
+    "description": "I am a fresh graduate with a Diploma in Computer Engineering, passionate about technology and software development. I have hands-on experience in web development, programming, and problem-solving. I am eager to contribute my skills and grow as a developer in a dynamic environment.",
     "button": "Download CV",
     "image": "/images/avatar.png"
   },
@@ -163,10 +163,10 @@
     "title": "Experience",
     "timeline": [
       {
-        "title": "Fresh Graduate",
-        "company": "University Name",
-        "period": "Graduated: Year",
-        "description": "I am a recent graduate eager to start my professional journey. While I do not have formal work experience yet, I have developed strong skills through academic projects, coursework, and personal learning."
+        "title": "No professional experience yet",
+        "company": "",
+        "period": "",
+        "description": "As a recent graduate, I am eager to gain hands-on experience and contribute to real-world projects. I am committed to continuous learning and professional growth."
       }
     ]
   },
@@ -242,4 +242,4 @@
       "submit": "Send Message"
     }
   }
-} 
+}
