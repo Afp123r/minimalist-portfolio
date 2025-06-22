@@ -77,6 +77,10 @@ header {
   transition: 0.4s;
 }
 
+.navBar.header-scrolled .menu-toggle .bar {
+  background-color: red;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .menu {
