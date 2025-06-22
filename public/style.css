@@ -128,7 +128,7 @@ header.header-scrolled .menu-toggle .bar {
 }
 
 .menu.active li a {
-  color: #695aa6; /* Set font color to purple when menu is active */
+  color: #695aa6 !important; /* Set font color to purple when menu is active */
 }
 
 /* New CSS */
