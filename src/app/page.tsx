@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import content from '../config/content.json';
 import emailjs from '@emailjs/browser';
+import ViewCounter from "./ViewCounter";
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -290,6 +291,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ViewCounter />
     </>
   );
 }
