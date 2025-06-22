@@ -163,16 +163,10 @@
     "title": "Experience",
     "timeline": [
       {
-        "title": "Job Title",
-        "company": "Company Name",
-        "period": "Duration",
-        "description": "Describe your responsibilities and achievements in this role. Highlight key projects and skills used."
-      },
-      {
-        "title": "Previous Job Title",
-        "company": "Previous Company",
-        "period": "Duration",
-        "description": "Describe your previous role, responsibilities, and achievements. Focus on relevant experience and skills."
+        "title": "Fresh Graduate",
+        "company": "University Name",
+        "period": "Graduated: Year",
+        "description": "I am a recent graduate eager to start my professional journey. While I do not have formal work experience yet, I have developed strong skills through academic projects, coursework, and personal learning."
       }
     ]
   },
