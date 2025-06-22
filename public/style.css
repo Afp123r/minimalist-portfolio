@@ -72,7 +72,7 @@ header {
 .menu-toggle .bar {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: #695aa6; /* Set to purple before scroll */
   margin: 4px 0;
   transition: 0.4s;
 }
