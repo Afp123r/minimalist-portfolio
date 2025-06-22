@@ -1,25 +1,11 @@
 import type { Metadata } from 'next';
 import { useEffect, useState } from 'react';
+import ViewCounter from "./ViewCounter";
 
 export const metadata: Metadata = {
   title: 'Portfolio',
   description: 'Deep Learning Engineer & Data Scientist Portfolio',
 };
-
-function ViewCounter() {
-  const [views, setViews] = useState<number | null>(null);
-  useEffect(() => {
-    // Replace 'minimalist-portfolio' with a unique key for your site
-    fetch('https://api.countapi.xyz/hit/minimalist-portfolio/visits')
-      .then(res => res.json())
-      .then(data => setViews(data.value));
-  }, []);
-  return (
-    <div style={{ textAlign: 'center', marginTop: '2rem', color: '#888', fontSize: '0.95rem' }}>
-      {views !== null ? `👁️ ${views} page views` : 'Loading views...'}
-    </div>
-  );
-}
 
 export default function RootLayout({
   children,
@@ -30,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <ViewCounter />
+        {/* Move ViewCounter to page.tsx instead */}
       </body>
     </html>
   );
