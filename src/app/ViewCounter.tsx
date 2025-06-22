@@ -5,7 +5,7 @@ export default function ViewCounter() {
   const [views, setViews] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
-    fetch("https://api.countapi.xyz/hit/minimalist-portfolio/visits")
+    fetch("https://api.visitorbadge.io/api/visitors?path=minimalist-portfolio&label=Page%20views")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
@@ -13,16 +13,17 @@ export default function ViewCounter() {
         return res.json();
       })
       .then((data) => {
-        console.log("CountAPI response:", data);
-        if (typeof data.value === "number") {
-          setViews(data.value);
+        // The API returns { count: number }
+        console.log("VisitorBadge response:", data);
+        if (typeof data.count === "number") {
+          setViews(data.count);
         } else {
-          setError("CountAPI returned invalid data: " + JSON.stringify(data));
+          setError("VisitorBadge returned invalid data: " + JSON.stringify(data));
         }
       })
       .catch((err) => {
         setError("Failed to load view count. " + err);
-        console.error("CountAPI error:", err);
+        console.error("VisitorBadge error:", err);
       });
   }, []);
   return (
