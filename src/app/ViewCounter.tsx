@@ -3,15 +3,37 @@ import { useEffect, useState } from "react";
 
 export default function ViewCounter() {
   const [views, setViews] = useState<number | null>(null);
+  const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     fetch("https://api.countapi.xyz/hit/minimalist-portfolio/visits")
       .then((res) => res.json())
-      .then((data) => setViews(data.value));
+      .then((data) => {
+        console.log("CountAPI response:", data);
+        if (typeof data.value === "number") {
+          setViews(data.value);
+        } else {
+          setError("Failed to load view count.");
+        }
+      })
+      .catch((err) => {
+        setError("Failed to load view count.");
+        console.error("CountAPI error:", err);
+      });
   }, []);
   return (
-    <div style={{ textAlign: "center", marginTop: "2rem", color: "#888", fontSize: "0.95rem" }}>
-      {views !== null ? `👁️ ${views} page views` : "Loading views..."}
+    <div
+      style={{
+        textAlign: "center",
+        marginTop: "2rem",
+        color: "#888",
+        fontSize: "0.95rem",
+      }}
+    >
+      {error
+        ? error
+        : views !== null
+        ? `👁️ ${views} page views`
+        : "Loading views..."}
     </div>
   );
 }
-
