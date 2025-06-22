@@ -77,7 +77,7 @@ header {
   transition: 0.4s;
 }
 
-.navBar.header-scrolled .menu-toggle .bar {
+header.header-scrolled .menu-toggle .bar {
   background-color: red;
 }
 
