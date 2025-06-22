@@ -127,6 +127,10 @@ header.header-scrolled .menu-toggle .bar {
   display: flex;
 }
 
+.menu.active li a {
+  color: #695aa6; /* Set font color to purple when menu is active */
+}
+
 /* New CSS */
 .header-scrolled {
   background-color: #fff;
