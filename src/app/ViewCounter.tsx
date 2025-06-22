@@ -6,17 +6,22 @@ export default function ViewCounter() {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     fetch("https://api.countapi.xyz/hit/minimalist-portfolio/visits")
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((data) => {
         console.log("CountAPI response:", data);
         if (typeof data.value === "number") {
           setViews(data.value);
         } else {
-          setError("Failed to load view count.");
+          setError("CountAPI returned invalid data: " + JSON.stringify(data));
         }
       })
       .catch((err) => {
-        setError("Failed to load view count.");
+        setError("Failed to load view count. " + err);
         console.error("CountAPI error:", err);
       });
   }, []);
