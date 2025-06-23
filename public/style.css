@@ -1516,7 +1516,6 @@ p, span, div, h1, h2, h3, h4, h5, h6 {
 
 .card-inner .box .icon .iconBox:hover img {
   transform: translateX(2px);
-  color: red;
 }
 
 .contact-form button:disabled {
