@@ -1614,7 +1614,7 @@ p, span, div, h1, h2, h3, h4, h5, h6 {
 }
 
 #menu li a {
-  color: ##0018fd;
+  color: #0018fd;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
