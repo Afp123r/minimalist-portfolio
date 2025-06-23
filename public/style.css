@@ -1258,7 +1258,7 @@ body {
 .navBar .name h1 {
   font-family: 'Quicksand', sans-serif !important;
   font-size: 2.5rem;
-  color: #fff;
+  color: #9722ff;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -1614,7 +1614,7 @@ p, span, div, h1, h2, h3, h4, h5, h6 {
 }
 
 #menu li a {
-  color: white;
+  color: ##0018fd;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
