@@ -174,11 +174,11 @@
     "title": "Projects",
     "items": [
       {
-        "title": "Project 1",
-        "description": "A brief description of your first project. Explain what it does and what technologies you used.",
-        "technologies": ["List", "Your", "Technologies"],
+        "title": "Barcode Filing Management System",
+        "description": "The Barcode Filing Management System is a digital solution designed to streamline the organization and retrieval of physical documents using barcode technology. It enables users to generate, assign, and scan barcodes for individual files, significantly improving tracking efficiency and minimizing human error. The system includes features such as user authentication, file indexing, and real-time search functionality. Built with PHP, MySQL, and JavaScript, it provides a user-friendly web interface for administrators and staff.",
+        "technologies": ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Barcode Scanner Integration"],
         "github": "https://github.com/TencentEdgeOne",
-        "site": "https://github.com/TencentEdgeOne",
+        "site": "https://fyp1.dpdns.org",
         "image": "/images/project-2-cover.jpg"
       },
       {
