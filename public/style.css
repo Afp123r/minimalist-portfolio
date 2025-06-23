@@ -758,7 +758,7 @@ h1 span {
   height: 16px;
   border-radius: 50%;
   border: 2px solid #F5F7FA;
-  background: #695aa6;
+  background: #ea5e5e;
   margin-top: 10px;
   z-index: 9999
 }
@@ -1503,7 +1503,7 @@ p, span, div, h1, h2, h3, h4, h5, h6 {
 }
 
 .card-inner .box .icon .iconBox:hover {
-  background: #695aa6;
+  background: #5ae792;
   transform: translateX(3px);
 }
 
