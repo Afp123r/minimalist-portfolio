@@ -190,11 +190,11 @@
         "image": "/images/project-3-cover.png"
       },
       {
-        "title": "Project 3",
-        "description": "A brief description of your third project. Explain what it does and what technologies you used.",
-        "technologies": ["List", "Your", "Technologies"],
+        "title": "Face Recognition Web App",
+        "description": "This Face Recognition Web App uses real-time camera input to detect and recognize faces through a web interface. Once a face is successfully detected, the system automatically sends a notification to a specified Telegram chat using the Telegram Bot API. The application is ideal for monitoring, attendance, or security use cases. It was developed using Python with OpenCV for facial recognition, integrated with a Flask web backend and JavaScript for frontend interactions.",
+        "technologies": ["Python", "OpenCV", "Flask", "React", "JavaScript", "HTML", "CSS", "Telegram Bot API"],
         "github": "https://github.com/TencentEdgeOne",
-        "site": "https://github.com/TencentEdgeOne",
+        "site": "https://webf.meho.dpdns.org",
         "image": "/images/project-4-cover.jpg"
       }
     ]
