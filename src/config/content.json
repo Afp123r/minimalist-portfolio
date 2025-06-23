@@ -179,7 +179,7 @@
         "technologies": ["Cloudflare", "SQlite", "JavaScript", "HTML", "CSS", "Barcode Scanner Integration"],
         "github": "https://github.com/TencentEdgeOne",
         "site": "https://fyp1.dpdns.org",
-        "image": "/images/project-2-cover.jpg"
+        "image": "https://i.ibb.co/5xGcxHvc/Generated-Image-June-23-2025-11-19-PM.jpg"
       },
       {
         "title": "Camera Photo Booth with Filters & Animations",
@@ -195,7 +195,7 @@
         "technologies": ["Python", "OpenCV", "Flask", "React", "JavaScript", "HTML", "CSS", "Telegram Bot API"],
         "github": "https://github.com/TencentEdgeOne",
         "site": "https://webf.meho.dpdns.org",
-        "image": "/images/project-4-cover.jpg"
+        "image": "https://i.ibb.co/rKTYHbKK/Generated-Image-June-23-2025-11-13-PM.jpg"
       }
     ]
   },
