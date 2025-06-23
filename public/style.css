@@ -247,7 +247,7 @@ header.header-scrolled .menu-toggle .bar {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: linear-gradient(to top, #fff 0% 0%, rgb(90 165 166 / 35%) 99%, rgba(105, 90, 166, 0.5) 100%);
 }
 
 .hero-container .botton {
