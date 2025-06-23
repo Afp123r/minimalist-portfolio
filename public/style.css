@@ -90,8 +90,8 @@ header.header-scrolled .menu-toggle .bar {
       top: 70px;
       right: 20px;
       text-align: center;
-      background-color: white;
-      border: 1px solid #e6fffcbd;
+      background-color: #e6fffcbd;
+      border: 1px solid #0070ff;
       border-radius: 8px;
       padding: 10px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
