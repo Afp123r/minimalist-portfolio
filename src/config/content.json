@@ -182,11 +182,11 @@
         "image": "/images/project-2-cover.jpg"
       },
       {
-        "title": "Project 2",
-        "description": "A brief description of your second project. Explain what it does and what technologies you used.",
-        "technologies": ["List", "Your", "Technologies"],
+        "title": "Camera Photo Booth with Filters & Animations",
+        "description": "The Camera Photo Booth is a fun and interactive web application that allows users to take photos using their device's camera and apply real-time filters and animations. Users can choose from a variety of visual effects, overlays, and frame styles to customize their snapshots. The app also supports saving and downloading photos directly from the browser. Built using JavaScript, HTML5, and CSS3, it leverages WebRTC for camera access and Canvas API for image processing.",
+        "technologies": ["JavaScript", "HTML5", "CSS3", "WebRTC", "Canvas API"],
         "github": "https://github.com/TencentEdgeOne",
-        "site": "https://github.com/TencentEdgeOne",
+        "site": "https://camera-app-bpo.pages.dev",
         "image": "/images/project-3-cover.png"
       },
       {
