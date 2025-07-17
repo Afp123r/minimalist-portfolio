@@ -95,16 +95,8 @@
             "image": "/images/python.png"
           },
           {
-            "name": "TensorFlow",
-            "image": "/images/tensor.png"
-          },
-          {
             "name": "PyTorch",
             "image": "/images/deep.png"
-          },
-          {
-            "name": "Scikit-learn",
-            "image": "/images/scikit.png"
           },
           {
             "name": "Pandas",
@@ -113,14 +105,6 @@
           {
             "name": "NumPy",
             "image": "/images/numpy.png"
-          },
-          {
-            "name": "Matplotlib",
-            "image": "/images/matplot.png"
-          },
-          {
-            "name": "Seaborn",
-            "image": "/images/seaborn.png"
           }
         ]
       },
