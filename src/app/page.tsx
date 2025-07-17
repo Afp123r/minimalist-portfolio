@@ -282,17 +282,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <div className="contact-form">
-            <form onSubmit={handleSubmit}>
-              <label htmlFor="name">{content.contact.form.name}</label>
-              <input type="text" id="name" name="name" required />
-              <label htmlFor="email">{content.contact.form.email}</label>
-              <input type="email" id="email" name="email" required />
-              <label htmlFor="message">{content.contact.form.message}</label>
-              <textarea id="message" name="message" rows={5} required></textarea>
-              <button type="submit">{content.contact.form.submit}</button>
-            </form>
-          </div>
         </div>
       </section>
       <ViewCounter />
