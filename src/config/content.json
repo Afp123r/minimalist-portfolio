@@ -63,10 +63,6 @@
           {
             "name": "React",
             "image": "/images/react.png"
-          },
-          {
-            "name": "Bootstrap",
-            "image": "/images/bootstrap.jpg"
           }
         ]
       },
@@ -78,12 +74,8 @@
             "image": "/images/nodejs.png"
           },
           {
-            "name": "Express",
-            "image": "/images/express-js.png"
-          },
-          {
-            "name": "MongoDB",
-            "image": "/images/mongo.png"
+            "name": "SQLite",
+            "image": "https://e7.pngegg.com/pngimages/890/928/png-clipart-sqlite-logo-sqlite-logo-icons-logos-emojis-tech-companies.png"
           },
           {
             "name": "MySQL",
