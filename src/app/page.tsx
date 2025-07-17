@@ -269,9 +269,9 @@ export default function Home() {
         <div className="contact-container">
           <div className="contact-info">
             <h2>Name</h2>
-            <p>NEOH WEI JIAN</p>
+            <p><strong>NEOH WEI JIAN</strong></p>
             <h2>Email</h2>
-            <p>henryneoh22@gmail.com</p>
+            <p><a href="mailto:henryneoh22@gmail.com">henryneoh22@gmail.com</a></p>
             <div className="social-links">
               {content.contact.social.map((social, index) => (
                 <a key={index} href={social.link} target="_blank">
@@ -279,6 +279,17 @@ export default function Home() {
                 </a>
               ))}
             </div>
+          </div>
+          <div className="contact-form">
+            <form onSubmit={handleSubmit}>
+              <label htmlFor="name">{content.contact.form.name}</label>
+              <input type="text" id="name" name="name" required />
+              <label htmlFor="email">{content.contact.form.email}</label>
+              <input type="email" id="email" name="email" required />
+              <label htmlFor="message">{content.contact.form.message}</label>
+              <textarea id="message" name="message" rows={5} required></textarea>
+              <button type="submit">{content.contact.form.submit}</button>
+            </form>
           </div>
         </div>
       </section>
