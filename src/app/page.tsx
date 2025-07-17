@@ -269,9 +269,9 @@ export default function Home() {
         <div className="contact-container">
           <div className="contact-info">
             <h2>Name</h2>
-            <p>Meho</p>
+            <p>NEOH WEI JIAN</p>
             <h2>Email</h2>
-            <p>mimiabc256@gmail.com</p>
+            <p>henryneoh22@gmail.com</p>
             <div className="social-links">
               {content.contact.social.map((social, index) => (
                 <a key={index} href={social.link} target="_blank">
