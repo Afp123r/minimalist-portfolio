@@ -271,9 +271,9 @@ export default function Home() {
             <h2>Name</h2>
             <p><strong>NEOH WEI JIAN</strong></p>
             <h2>Email</h2>
-            <p><a href="mailto:henryneoh22@gmail.com">henryneoh22@gmail.com</a></p>
+            <p><a href="mailto:henryneoh22@gmail.com" style={{ color: '#fff' }}>henryneoh22@gmail.com</a></p>
             <h2>Phone</h2>
-            <p><a href="tel:+60173014638">0173014638</a></p>
+            <p><a href="tel:+60173014638" style={{ color: '#fff' }}>0173014638</a></p>
             <div className="social-links">
               {content.contact.social.map((social, index) => (
                 <a key={index} href={social.link} target="_blank">
