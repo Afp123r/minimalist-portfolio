@@ -144,16 +144,36 @@
             "image": "/images/vscode.jpg"
           },
           {
-            "name": "Jupyter",
-            "image": "/images/jupyter.png"
+            "name": "Cursor",
+            "image": "https://static.cdnlogo.com/logos/c/23/cursor.svg"
           },
           {
-            "name": "Figma",
-            "image": "/images/figma.png"
+            "name": "Trae",
+            "image": "https://ph-files.imgix.net/c4d77076-9008-48e5-b10c-8a03297e3781.png"
           },
           {
             "name": "Canva",
             "image": "/images/canva.jpg"
+          },
+          {
+            "name": "github",
+            "image": "https://img.favpng.com/23/22/24/github-computer-icons-logo-repository-png-favpng-Xa4mbSrfRMX9G88dJuBVBvj5Q.jpg"
+          },
+          {
+            "name": "CodeBlocks",
+            "image": "https://w1.pngwing.com/pngs/84/803/png-transparent-codeblocks-plastic-integrated-development-environment-visual-studio-code-source-code-exe-sourceforge-installation-free-and-opensource-software.png"
+          },
+          {
+            "name": "Intel® Quartus® II",
+            "image": "https://i0.wp.com/streamhpc.com/wp-content/uploads/2016/10/quartus.jpg"
+          },
+          {
+            "name": "Cisco packet Tracer",
+            "image": "https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png"
+          },
+          {
+            "name": "Wireshark",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Wireshark_icon_new.png"
           }
         ]
       }
