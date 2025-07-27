@@ -33,14 +33,14 @@
     "name": "Henry",
     "title": "Full Stack Developer",
     "description": "I build exceptional and accessible digital experiences for the web.",
-    "image": "/images/Elon_Musk_Royal_Society.jpg"
+    "image": "/images/avatar.png"
     "resume": "https://resume11.edgeone.app/Resume%20(1).pdf"
   },
   "about": {
     "title": "About Me",
     "description": "I am a fresh graduate with a Diploma in Computer Engineering, passionate about technology and software development. I have hands-on experience in web development, programming, and problem-solving. I am eager to contribute my skills and grow as a developer in a dynamic environment.",
     "button": "Download CV",
-    "image": "/images/avatar.png"
+    "image": "/images/Elon_Musk_Royal_Society.jpg"
   },
   "skills": {
     "title": "My Skills",
