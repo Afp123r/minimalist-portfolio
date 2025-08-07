@@ -223,7 +223,7 @@
         "name": "LinkedIn",
         "icon": "linkedin",
         "link": "https://www.linkedin.com/in/henry-neoh-wei-jian-7b44362a0/?trk=opento_sprofile_details"
-      },
+      },...
       {
         "name": "Medium",
         "icon": "medium",
@@ -233,7 +233,7 @@
         "name": "Instagram",
         "icon": "instagram",
         "link": "https://x.com/TencentCloudEO"
-      }
+      }...
     ],
     "form": {
       "name": "Name",
