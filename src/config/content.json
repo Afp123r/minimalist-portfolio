@@ -212,7 +212,7 @@
       "email": "henryneoh22@gmail.com",
       "phone": "+60173014638",
       "location": "Your Location"
-    },
+    },...
     "social": [
       {
         "name": "GitHub",
@@ -223,7 +223,7 @@
         "name": "LinkedIn",
         "icon": "linkedin",
         "link": "https://www.linkedin.com/in/henry-neoh-wei-jian-7b44362a0/?trk=opento_sprofile_details"
-      },...
+      },
       {
         "name": "Medium",
         "icon": "medium",
@@ -233,13 +233,13 @@
         "name": "Instagram",
         "icon": "instagram",
         "link": "https://x.com/TencentCloudEO"
-      }...
+      }
     ],
     "form": {
       "name": "Name",
       "email": "Email",
       "message": "Message",
       "submit": "Send Message"
-    }
+    }...
   }
 }
