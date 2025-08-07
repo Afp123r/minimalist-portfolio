@@ -239,7 +239,7 @@ export default function Home() {
                     <img src={project.image} alt={project.title} />
                   </div>
                   <div className="icon">
-                    <a href={project.github} className="iconBox" target="_blank" rel="noopener noreferrer">
+                    <a href={project.site} className="iconBox" target="_blank" rel="noopener noreferrer">
                       <img src="/images/arrow.svg" alt="arrow" className="arrow-icon" />
                     </a>
                   </div>
