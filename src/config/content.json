@@ -1,6 +1,6 @@
 {
   "nav": {
-    "name": "Henry(NEOH WEI JIAN)",
+    "name": "Henry",
     "menu": [
       {
         "text": "Home",
@@ -30,7 +30,7 @@
   },
   "hero": {
     "greeting": "Hi",
-    "name": "Henry",
+    "name": "Henry(NEOH WEI JIAN)",
     "title": "Full Stack Developer",
     "description": "I build exceptional and accessible digital experiences for the web.",
     "image": "/images/avatar.png",
