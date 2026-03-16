@@ -150,7 +150,9 @@ export default function Home() {
           <div className="text">
             <p className="p1">Who Am I?</p>
             <h2>{content.about.title}</h2>
-            <p className="p2">{content.about.description}</p>
+            {content.about.description.map((para, index) => (
+              <p key={index} className="p2">{para}</p>
+            ))}
             <a href={content.hero.resume} target="_blank"><button>{content.about.button}</button></a>
           </div>
         </div>
