@@ -6,6 +6,7 @@
     <title> Henry | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Leckerli+One&family=Lilita+One&family=Patrick+Hand&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lilita+One&family=Patrick+Hand&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style.css">
@@ -39,7 +40,7 @@
     <!-- Navbar Html Code  -->
 
     <!-- Hero Section Html Code -->
-<section class="hero" id="home">
+<section class="hero" id="home" data-aos="fade-up">
     <div class="over"></div>
     <div class="hero-container">
         <h1 class="intro">
@@ -68,7 +69,7 @@
 <!-- Hero Section Html Code -->
 
     <!-- About Section Html Code -->
-    <section class="about" id="about">
+    <section class="about" id="about" data-aos="fade-up">
         <div class="about-container">
             <div class="imgeffect">
                 <img src="images/pic2.jpg" alt="">
@@ -86,7 +87,7 @@
     <!-- About Section Html Code -->
 
     <!-- Skills Section Html Code -->
-    <section class="Skills" id="skills">
+    <section class="Skills" id="skills" data-aos="fade-up">
         <div class="container">
             <div class="heading">
                 <h1 class="skillh1">My Skills</h1>
@@ -218,7 +219,7 @@
     <!-- Skills Section Html Code -->
 
     <!-- Experience Section Html Code -->
-    <section class="Expirience" id="expirience">
+    <section class="Expirience" id="expirience" data-aos="fade-up">
         <h1>Experience</h1>
         <div class="container-ex">
            <div class="timeline-block timeline-block-right">
@@ -252,7 +253,7 @@
     <!-- Experience Section Html Code -->
 
     <!-- Project Section Html Code -->
-    <section class="project" id="projects">
+    <section class="project" id="projects" data-aos="fade-up">
         <div class="main">
             <h1>Projects</h1>
             <div class="container">
@@ -330,7 +331,7 @@
     <!-- Project Section Html Code -->
 
     <!-- Blog Section Html Code -->
-    <section class="blogs" id="blog">
+    <section class="blogs" id="blog" data-aos="fade-up">
         <div class="tit">
             <h1>Blogs</h1>
         </div>
@@ -347,7 +348,7 @@
     <!-- Blog Section Html Code -->
 
     <!-- Contact Section Html Code  -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-up">
         <div class="contact-container">
             <div class="contact-info">
                 <h1>Contact Me</h1>
@@ -379,7 +380,7 @@
     </section>
     <!-- Contact Section Html Code  -->
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         
         document.addEventListener('DOMContentLoaded', function() {
@@ -417,6 +418,14 @@
             typeSpeed: 90,
             backSpeed: 90,
             loop: true
+        });
+
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
         });
     </script>
 </body>
