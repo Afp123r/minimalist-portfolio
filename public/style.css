@@ -362,7 +362,7 @@ header.header-scrolled .menu-toggle .bar {
 }
 
 .text button {
-  background: #695aa6;
+  background: #a691ff;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -374,7 +374,7 @@ header.header-scrolled .menu-toggle .bar {
 }
 
 .text button:hover {
-  background: #8e74ff;
+  background: #ff74df;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(105, 90, 166, 0.3);
 }
