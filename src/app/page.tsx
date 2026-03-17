@@ -124,7 +124,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <section className="hero" id="home" style={{ backgroundImage: "url('/images/about.jpg')" }}>
+      <section className="hero" id="home" style={{ backgroundImage: "url('/images/pic2.jpg')" }}>
         <div className="over"></div>
         <div className="hero-container">
           <h1>
@@ -145,7 +145,14 @@ export default function Home() {
       <section className="about" id="about">
         <div className="about-container">
           <div className="imgeffect">
-            <img src={content.about.image} alt="" />
+            <div className="flipper">
+              <div className="front">
+                <img src="/images/githubprofile.png" alt="" />
+              </div>
+              <div className="back">
+                <img src="/images/profile2.png" alt="" />
+              </div>
+            </div>
           </div>
           <div className="text">
             <p className="p1">Who Am I?</p>
