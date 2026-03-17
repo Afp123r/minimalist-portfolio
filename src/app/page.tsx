@@ -124,7 +124,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <section className="hero" id="home" style={{ backgroundImage: "url('/images/pic2.jpg')" }}>
+      <section className="hero" id="home">
         <div className="over"></div>
         <div className="hero-container">
           <h1>
