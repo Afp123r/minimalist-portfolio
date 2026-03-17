@@ -172,7 +172,7 @@ header.header-scrolled .menu-toggle .bar {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, rgba(105, 90, 166, 0.8), rgba(90, 165, 166, 0.6)), url('/images/pic1.jpg');
+  
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
