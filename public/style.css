@@ -419,6 +419,12 @@ header.header-scrolled .menu-toggle .bar {
   font-size: 1rem;
   transition: all 0.4s ease;
   box-shadow: 0 4px 15px rgba(166, 145, 255, 0.4);
+  animation: neon-pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon-pulse {
+  from { box-shadow: 0 4px 15px rgba(166, 145, 255, 0.4); }
+  to { box-shadow: 0 4px 25px rgba(166, 145, 255, 0.8), 0 0 35px rgba(166, 145, 255, 0.4); }
 }
 
 .text button:hover {
