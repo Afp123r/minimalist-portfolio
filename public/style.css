@@ -272,6 +272,133 @@ body.dark-mode .contact-form textarea::placeholder {
   color: #cccccc;
 }
 
+/* Dark mode styles for hero section */
+body.dark-mode .hero {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+body.dark-mode .hero-container h1,
+body.dark-mode .hero-container .up,
+body.dark-mode .hero-container .down {
+  color: #ffffff;
+}
+
+body.dark-mode .hero-container h1 .auto-type {
+  color: #8bb4ff;
+}
+
+body.dark-mode .hero-container .botton a {
+  color: #8bb4ff;
+}
+
+/* Dark mode styles for skills section */
+body.dark-mode .Skills {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+body.dark-mode .skillh1 {
+  color: #ffffff;
+}
+
+body.dark-mode .Skills .container .mainSkill .front,
+body.dark-mode .Skills .container .mainSkill .back,
+body.dark-mode .Skills .container .mainSkill .datasci,
+body.dark-mode .Skills .container .mainSkill .tools {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .Skills .container .mainSkill .front .frontSkill,
+body.dark-mode .Skills .container .mainSkill .back .backSkill,
+body.dark-mode .Skills .container .mainSkill .datasci .datasciSkill,
+body.dark-mode .Skills .container .mainSkill .tools .toolsSkill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+/* Dark mode styles for experience section */
+body.dark-mode .expirience {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+body.dark-mode .expirience .skillh1 {
+  color: #ffffff;
+}
+
+body.dark-mode .timeline-content {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+body.dark-mode .timeline-content h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .timeline-content span {
+  color: #cccccc;
+}
+
+/* Dark mode styles for projects section */
+body.dark-mode .project {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+body.dark-mode .project .main h1 {
+  color: #ffffff;
+}
+
+/* Dark mode styles for contact section */
+body.dark-mode .contact {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+}
+
+body.dark-mode .contact .main h1 {
+  color: #ffffff;
+}
+
+body.dark-mode .contact-info h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .contact-info p {
+  color: #cccccc;
+}
+
+body.dark-mode .contact-info a {
+  color: #8bb4ff;
+}
+
+/* Dark mode styles for text elements */
+body.dark-mode .text h2,
+body.dark-mode .about-container .text h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .text p,
+body.dark-mode .about-container .text p {
+  color: #cccccc;
+}
+
+body.dark-mode .p1 {
+  color: #8bb4ff;
+}
+
+/* Dark mode for scroll progress */
+body.dark-mode .scroll-progress {
+  background: linear-gradient(90deg, #8bb4ff, #695aa6, #8bb4ff);
+}
+
+/* Dark mode for cursor */
+body.dark-mode .cursor-dot {
+  background: #8bb4ff;
+}
+
+body.dark-mode .cursor-trail {
+  background: radial-gradient(circle, rgba(139, 180, 255, 0.3), transparent);
+}
+
 /* Scroll Progress Indicator */
 .scroll-progress {
   position: fixed;
