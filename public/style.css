@@ -599,6 +599,19 @@ body.dark-mode .back-to-top:hover {
 }
 
 /* Scroll Progress Indicator */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, #695aa6, #5aa6a6, #695aa6);
+  background-size: 200% 100%;
+  z-index: 9999;
+  transition: width 0.1s ease;
+  animation: gradient-flow 3s ease infinite;
+}
+
 body.dark-mode .scroll-progress {
   background: linear-gradient(90deg, #a691ff, #91a7ff, #a691ff);
 }
@@ -628,20 +641,6 @@ body.dark-mode .gradient-text {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
-}
-
-/* Scroll Progress Indicator */
-.scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 3px;
-  background: linear-gradient(90deg, #695aa6, #5aa6a6, #695aa6);
-  background-size: 200% 100%;
-  z-index: 9999;
-  transition: width 0.1s ease;
-  animation: gradient-flow 3s ease infinite;
 }
 
 @keyframes gradient-flow {
