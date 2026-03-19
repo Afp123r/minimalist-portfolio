@@ -193,35 +193,58 @@ section::before {
   display: none;
 }
 
-/* Dark mode styles */
+/* Enhanced Dark mode styles */
 body.dark-mode {
-  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
-  color: #ffffff;
+  background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%);
+  color: #e8e8e8;
+  min-height: 100vh;
 }
 
+/* Enhanced dark mode background particles */
+body.dark-mode::before {
+  background: 
+    linear-gradient(45deg, rgba(105, 90, 166, 0.08) 0%, transparent 25%),
+    linear-gradient(135deg, rgba(90, 165, 166, 0.08) 0%, transparent 25%),
+    linear-gradient(225deg, rgba(166, 90, 165, 0.08) 0%, transparent 25%),
+    linear-gradient(315deg, rgba(90, 166, 105, 0.08) 0%, transparent 25%),
+    radial-gradient(circle at 25% 25%, rgba(105, 90, 166, 0.15) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, rgba(90, 165, 166, 0.15) 2px, transparent 2px);
+}
+
+/* Navigation in dark mode */
 body.dark-mode .navBar {
-  background: rgba(15, 15, 30, 0.8);
+  background: rgba(10, 10, 15, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 body.dark-mode header.header-scrolled {
-  background: rgba(15, 15, 30, 0.9);
+  background: rgba(10, 10, 15, 0.95);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 body.dark-mode .menu ul li a {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.05);
+  color: #e8e8e8;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 body.dark-mode .menu ul li a:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
 }
 
 body.dark-mode .theme-toggle {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+body.dark-mode .theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
 }
 
 body.dark-mode .sun-icon {
@@ -232,20 +255,89 @@ body.dark-mode .moon-icon {
   display: block;
 }
 
+/* Hero section dark mode */
+body.dark-mode .hero {
+  background: linear-gradient(135deg, rgba(10, 10, 15, 0.9), rgba(26, 26, 46, 0.9));
+}
+
+body.dark-mode .hero-container h1 {
+  color: #ffffff;
+  text-shadow: 0 2px 10px rgba(105, 90, 166, 0.3);
+}
+
+body.dark-mode .hero-container h2 {
+  color: #e8e8e8;
+}
+
+body.dark-mode .auto-type {
+  color: #695aa6;
+  text-shadow: 0 0 20px rgba(105, 90, 166, 0.5);
+}
+
+/* Section containers in dark mode */
 body.dark-mode .about-container,
 body.dark-mode .Skills .container,
 body.dark-mode .expirience .container-ex,
 body.dark-mode .project .container,
 body.dark-mode .contact-container {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
+body.dark-mode section {
+  background: transparent;
+}
+
+body.dark-mode section::before {
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(105, 90, 166, 0.02),
+    transparent,
+    rgba(90, 165, 166, 0.02),
+    transparent
+  );
+}
+
+/* Text elements in dark mode */
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .skillh1,
+body.dark-mode .about .text h2,
+body.dark-mode .Skills .container .heading h1,
+body.dark-mode .expirience h1,
+body.dark-mode .project .main h1,
+body.dark-mode .contact .main h1 {
+  color: #ffffff;
+}
+
+body.dark-mode .about .text p,
+body.dark-mode .card .content p,
+body.dark-mode .timeline-content p {
+  color: #cccccc;
+}
+
+body.dark-mode .about .text .p1 {
+  color: #695aa6;
+}
+
+/* Project cards in dark mode */
 body.dark-mode .card-inner .box {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .card:hover .card-inner .box {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 30px rgba(105, 90, 166, 0.2);
 }
 
 body.dark-mode .card .content h3 {
@@ -256,20 +348,166 @@ body.dark-mode .card .content p {
   color: #cccccc;
 }
 
+body.dark-mode .card ul li {
+  background: rgba(105, 90, 166, 0.8);
+  color: #ffffff;
+}
+
+body.dark-mode .card ul a:hover li {
+  background: rgba(105, 90, 166, 0.9);
+}
+
+/* Skills section in dark mode */
+body.dark-mode .Skills .container .mainSkill .front,
+body.dark-mode .Skills .container .mainSkill .back,
+body.dark-mode .Skills .container .mainSkill .datasci,
+body.dark-mode .Skills .container .mainSkill .tools {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode .Skills .container .mainSkill .front h2,
+body.dark-mode .Skills .container .mainSkill .back h2,
+body.dark-mode .Skills .container .mainSkill .datasci h2,
+body.dark-mode .Skills .container .mainSkill .tools h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .Skills .container .mainSkill .front .frontSkill, 
+body.dark-mode .Skills .container .mainSkill .back .backSkill, 
+body.dark-mode .Skills .container .mainSkill .datasci .datasciSkill, 
+body.dark-mode .Skills .container .mainSkill .tools .toolsSkill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e8e8e8;
+}
+
+body.dark-mode .Skills .container .mainSkill .front .frontSkill:hover, 
+body.dark-mode .Skills .container .mainSkill .back .backSkill:hover,
+body.dark-mode .Skills .container .mainSkill .datasci .datasciSkill:hover,
+body.dark-mode .Skills .container .mainSkill .tools .toolsSkill:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(105, 90, 166, 0.2);
+}
+
+body.dark-mode .skill-progress-container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .skill-percentage {
+  color: #695aa6;
+}
+
+/* Timeline in dark mode */
+body.dark-mode .container-ex:before {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .timeline-content {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode .timeline-content h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .timeline-content span {
+  color: #cccccc;
+}
+
+body.dark-mode .timeline-content p {
+  color: #aaaaaa;
+}
+
+body.dark-mode .marker {
+  background: #695aa6;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Contact section in dark mode */
 body.dark-mode .contact-info {
-  background: rgba(105, 90, 166, 0.2);
+  background: rgba(105, 90, 166, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode .contact-info h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .contact-info p {
+  color: #cccccc;
 }
 
 body.dark-mode .contact-form input,
 body.dark-mode .contact-form textarea {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: #ffffff;
+}
+
+body.dark-mode .contact-form input:focus,
+body.dark-mode .contact-form textarea:focus {
+  border-color: #695aa6;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 body.dark-mode .contact-form input::placeholder,
 body.dark-mode .contact-form textarea::placeholder {
-  color: #cccccc;
+  color: #888888;
+}
+
+body.dark-mode .contact-form button {
+  background: linear-gradient(135deg, #695aa6, #5aa6a6);
+  border: none;
+  color: #ffffff;
+}
+
+body.dark-mode .contact-form button:hover {
+  background: linear-gradient(135deg, #7a6ab6, #6ab6b6);
+  box-shadow: 0 4px 20px rgba(105, 90, 166, 0.4);
+}
+
+/* Buttons and interactive elements in dark mode */
+body.dark-mode .text button {
+  background: linear-gradient(135deg, #695aa6, #5aa6a6);
+  color: #ffffff;
+  border: none;
+}
+
+body.dark-mode .text button:hover {
+  background: linear-gradient(135deg, #7a6ab6, #6ab6b6);
+  box-shadow: 0 8px 25px rgba(105, 90, 166, 0.4);
+}
+
+/* Scroll progress in dark mode */
+body.dark-mode .scroll-progress {
+  background: linear-gradient(90deg, #695aa6, #5aa6a6, #695aa6);
+}
+
+/* Back to top button in dark mode */
+body.dark-mode .back-to-top {
+  background: linear-gradient(135deg, #695aa6, #5aa6a6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .back-to-top:hover {
+  background: linear-gradient(135deg, #7a6ab6, #6ab6b6);
+  box-shadow: 0 8px 25px rgba(105, 90, 166, 0.5);
+}
+
+/* Cursor in dark mode */
+body.dark-mode .cursor-dot {
+  background: #695aa6;
+  box-shadow: 0 0 10px rgba(105, 90, 166, 0.5);
+}
+
+body.dark-mode .cursor-trail {
+  background: radial-gradient(circle, rgba(105, 90, 166, 0.4), transparent);
 }
 
 /* Scroll Progress Indicator */
